@@ -34,9 +34,9 @@ INSTALLED_APPS = [
     # add jobs app in
     'jobs.apps.JobsConfig',
     # add users app in
-    'users.apps.UsersConfig'
+    'users.apps.UsersConfig',
     # crispy_forms
-    'crispy_forms'
+    'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
