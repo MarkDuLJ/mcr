@@ -9,10 +9,14 @@
 (need to check again)
 
 
-superuser
+superuser(this account only for debugging)
 user name:mcr
 email:ldu@shipperbee.com
 password:mcr266588
+
+common users:
+Mark/Carol/Ruiying
+password:test12345
 
 Run server
 in current project directory, command line, input"python manage.py runserver"
