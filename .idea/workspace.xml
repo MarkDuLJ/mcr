@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="238a9afe-b858-4172-8bb2-66c8d7638a29" name="Default Changelist" comment="init2">
+    <list default="true" id="238a9afe-b858-4172-8bb2-66c8d7638a29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jobs/static/job/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shutter_warranty/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shutter_warranty/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/templates/job/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/templates/job/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <list id="3bedc2b6-9181-4d61-9489-f66d7649a9cc" name="init1" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +42,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lchen\PycharmProjects\shutter_warranty\jobs\static\job" />
       <recent name="C:\Users\lchen\PycharmProjects\shutter_warranty\jobs\templates\job" />
     </key>
   </component>
@@ -89,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582826835631</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="login and show user's order list">
+      <created>1582839054197</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582839054197</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,7 +112,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init1" />
     <MESSAGE value="init2" />
-    <option name="LAST_COMMIT_MESSAGE" value="init2" />
+    <MESSAGE value="login and show user's order list" />
+    <option name="LAST_COMMIT_MESSAGE" value="login and show user's order list" />
   </component>
   <component name="WindowStateProjectService">
     <state x="544" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582744363762">
@@ -119,10 +124,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="454" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1582826765859" />
-    <state x="431" y="8" key="CommitChangelistDialog2" timestamp="1582835742169">
+    <state x="431" y="8" key="CommitChangelistDialog2" timestamp="1582839053294">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582835742169" />
+    <state x="431" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582839053294" />
     <state x="105" y="100" width="1336" height="624" key="DiffContextDialog" timestamp="1582826983485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -135,10 +140,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="625" y="329" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1582753820728" />
-    <state x="368" y="146" key="Vcs.Push.Dialog.v2" timestamp="1582826969177">
+    <state x="368" y="146" key="Vcs.Push.Dialog.v2" timestamp="1582839065619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="368" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582826969177" />
+    <state x="368" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582839065619" />
     <state x="471" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1582813549058">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

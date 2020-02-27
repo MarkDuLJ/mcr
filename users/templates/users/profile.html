@@ -5,11 +5,11 @@
           <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}">
           <div class="media-body">
             <div class="article-metadata">
-              <a class="mr-2" href="#">{{ order.product }}</a>
+              <a class="mr-2" href="#">{{ order.user }}</a>
               <small class="text-muted">{{ order.date|date:"F d, Y" }}</small>
             </div>
-            <h2><a class="article-title" href="#">{{ order.user }}</a></h2>
-            <p class="article-content">{{ order.quantities }}</p>
+            <h2><a class="article-title" href="#">{{ order.product }}</a></h2>
+<!--            <p class="article-content">{{ order.quantities }}</p>-->
           </div>
         </article>
     {% endfor %}
