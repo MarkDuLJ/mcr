@@ -25,16 +25,16 @@
     <link rel="stylesheet" type="text/css" href="{% static 'job/main.css' %}">
 
     {% if title %}
-        <title>Shutter Warranty - {{ title }}</title>
+        <title>Sunny Shutter Warranty - {{ title }}</title>
     {% else %}
-        <title>Shutter Warranty</title>
+        <title>Sunny Shutter Warranty</title>
     {% endif %}
 </head>
 <body>
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="{% url 'warranty_home' %}">Shutter Warranty Booking</a>
+          <a class="navbar-brand mr-4" href="{% url 'warranty_home' %}">Sunny Shutter Warranty Booking</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -71,13 +71,18 @@
         </div>
         <div class="col-md-4">
           <div class="content-section">
-            <h3>Our Sidebar</h3>
-            <p class='text-muted'>You can put any information here you'd like.
+            <h3>Dynamic Information</h3>
+            <p class='text-muted'> show something.
               <ul class="list-group">
-                <li class="list-group-item list-group-item-light">Latest Posts</li>
-                <li class="list-group-item list-group-item-light">Announcements</li>
-                <li class="list-group-item list-group-item-light">Calendars</li>
-                <li class="list-group-item list-group-item-light">etc</li>
+                <li class="list-group-item list-group-item-light">
+                    <a class="nav-link" href="#">Company News</a></li>
+                <li class="list-group-item list-group-item-light">
+                    <a class="nav-link" href="#">Notifications</a></li>
+                <li class="list-group-item list-group-item-light">
+                    <a class="nav-link" href="#">Calendars</a></li>
+                <li class="list-group-item list-group-item-light">
+                  <a class="nav-link" href="#">Online Robot</a>
+                </li>
               </ul>
             </p>
           </div>

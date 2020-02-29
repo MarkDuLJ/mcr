@@ -21,6 +21,6 @@ def register(request):
 
 @login_required
 def profile(request):
-    order = Order.objects.filter(user=request.user)
+    order = Order.objects.filter(user=request.user).order_by('date')
     context = {'orders': order}
     return render(request, 'users/profile.html', context)

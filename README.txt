@@ -4,8 +4,9 @@
 4, cd shutter_warranty project in your local machine in command center
 5, "pip install requirements.txt "
 6, "virtualenv env"
-7, "python manage.py runserver"
-8, open a browser and type the server link "127.0.0.1:8000"
+7, "source env/bin/activate"
+8, "python manage.py runserver"
+9, open a browser and type the server link "127.0.0.1:8000"
 (need to check again)
 
 
