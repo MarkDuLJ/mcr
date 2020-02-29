@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="238a9afe-b858-4172-8bb2-66c8d7638a29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jobs/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jobs/templates/job/appointment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jobs/templates/job/appointment_complete.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Scripts/easy_install-3.8.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/easy_install-3.8.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Scripts/easy_install.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/easy_install.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Scripts/easy_install3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/easy_install3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Scripts/pip-3.8.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/pip-3.8.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/pip.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/pip3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Scripts/wheel-3.8.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/wheel-3.8.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Scripts/wheel.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/wheel.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Scripts/wheel3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/env/Scripts/wheel3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/templates/job/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/templates/job/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/templates/job/appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/templates/job/appointment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <list id="3bedc2b6-9181-4d61-9489-f66d7649a9cc" name="init1" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582941649691</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add appointment function">
+      <created>1582994490635</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582994490635</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,7 +149,8 @@
     <MESSAGE value="login and show user's order list" />
     <MESSAGE value="add css in" />
     <MESSAGE value="add forget password function" />
-    <option name="LAST_COMMIT_MESSAGE" value="add forget password function" />
+    <MESSAGE value="add appointment function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add appointment function" />
   </component>
   <component name="WindowStateProjectService">
     <state x="544" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582744363762">
@@ -170,10 +161,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="454" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1582826765859" />
-    <state x="431" y="8" key="CommitChangelistDialog2" timestamp="1582941648821">
+    <state x="431" y="8" key="CommitChangelistDialog2" timestamp="1582994488792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1536.920@0.0.1536.824" timestamp="1582941648821" />
+    <state x="431" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1536.920@0.0.1536.824" timestamp="1582994488792" />
     <state x="431" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582840481703" />
     <state x="105" y="100" width="1336" height="624" key="DiffContextDialog" timestamp="1582826983485">
       <screen x="0" y="0" width="1536" height="824" />
@@ -187,10 +178,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="625" y="329" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1582753820728" />
-    <state x="368" y="146" key="Vcs.Push.Dialog.v2" timestamp="1582941669308">
+    <state x="368" y="146" key="Vcs.Push.Dialog.v2" timestamp="1582994497971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="368" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1536.920@0.0.1536.824" timestamp="1582941669308" />
+    <state x="368" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1536.920@0.0.1536.824" timestamp="1582994497971" />
     <state x="368" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582840489347" />
     <state x="471" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1582813549058">
       <screen x="0" y="0" width="1536" height="824" />
