@@ -28,3 +28,12 @@ class Stock(models.Model):
 class Engineer(models.Model):
     name = models.CharField(max_length=50)
     work_hours = models.IntegerField()
+    status = models.BooleanField(default=True)
+
+    def __str__(self):
+        return self.name
+
+
+class Appointment(models.Model):
+    engineer = models.ForeignKey(Engineer, on_delete=models.CASCADE)
+    date = models.DateTimeField(default=timezone.now)

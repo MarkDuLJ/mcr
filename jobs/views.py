@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from .forms import AppointmentForm
 
 
 def home(request):
@@ -8,3 +8,21 @@ def home(request):
 
 def about(request):
     return render(request, 'job/about.html', {'title': 'About'})
+
+
+def appointment(request):
+    if request.method == 'POST':
+        filled_form = AppointmentForm(request.POST)
+        if filled_form.is_valid():
+            filled_form.save()
+            note = 'Thanks for booking! Engineer %s will visit you at %s !' % (
+                filled_form.cleaned_data['engineer'], filled_form.cleaned_data['date'],
+                )
+        else:
+            note = 'Appointment was not created, please try again'
+        new_form = AppointmentForm()
+        return render(request, 'job/appointment.html',
+                      {'AppointmentForm': new_form, 'note': note})
+    else:
+        form = AppointmentForm()
+        return render(request, 'job/appointment.html', {'AppointmentForm': form})

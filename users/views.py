@@ -4,6 +4,7 @@ from .forms import UserRegisterForm
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 from jobs.models import Order
+from django.contrib.auth.forms import UserCreationForm
 
 
 def register(request):
@@ -21,6 +22,7 @@ def register(request):
 
 @login_required
 def profile(request):
-    order = Order.objects.filter(user=request.user).order_by('date')
-    context = {'orders': order}
+    note = 'Welcome! %s !' % request.user
+    order = Order.objects.filter(user=request.user).order_by('date').reverse()
+    context = {'orders': order, 'note': note}
     return render(request, 'users/profile.html', context)
